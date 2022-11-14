@@ -1,0 +1,89 @@
+
+
+
+
+
+.rigthSideBar{
+    flex:3;
+    height :calc(100vh - 50px);
+    overflow-x: scroll;
+}
+.rightSideBarWrapper{
+    padding: 20px 20px 0 10px;
+}
+.giftImg{
+    width:40px;
+    height: 40px;
+    margin-right: 10px ;
+}
+.birthdayNotificat{
+    font-weight: 300;
+    font-size: 15px;
+}
+.rightBaradposter{
+    width: 100%;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+.rigthbarTitle{
+    margin-bottom: 20px;
+}
+.rightBarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightBarTitle{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.rightbarInfo{
+    margin-bottom: 30px;
+}
+.rightBarInfoIten{
+    margin-bottom: 10px;
+}
+.rightBarInfoKey{
+    font-weight: 400;
+    margin-right: 15px;
+    color: #555;
+}
+.rightBarInfoValue{
+    font-weight: 300;
+}
+.rightBarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rightBarfollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.rightBarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.rightFollowerButton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding:5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.rightFollowerButton:focus{
+    outline: none;
+}

@@ -1,0 +1,8 @@
+.feedBar{
+    flex:6;
+    height :calc(100vh - 50px);
+    overflow-x: scroll;
+}
+.feedWrapper{
+    padding: 10px;
+}

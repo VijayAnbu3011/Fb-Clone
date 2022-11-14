@@ -1,0 +1,102 @@
+.topBarContainer{
+    height: 50px;
+
+
+
+    
+    width: 100%;
+    background-color:#1877f2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.leftBar{
+   flex: 3;
+}
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.centerBar{
+    flex: 5;
+}
+.inputBox{
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.searchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+.searchInput{
+    border: none;
+    width: 70%;
+}
+.searchInput:focus{
+    outline: none;
+}
+.rigthBar{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+
+.timelineLink{
+    margin-right: 10px;
+    display: flex;
+    font-size: 14px;
+    cursor: pointer;
+}
+.homeLink{
+    margin-right: 10px;
+}
+.rightBarIconsItem{
+    display: flex;
+   
+}
+.rightBarIcon{
+    display: flex;
+    margin-right: 50px;
+    cursor: pointer;
+    position: relative;
+    top:10px
+}
+.personIcon{
+    margin-right: 10px;
+    align-items: center;
+}
+.chatIcon{
+    margin-right: 10px;
+    align-items: center;
+}
+.noteIconBadge{
+    width: 15px;
+    height:15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.profileImage{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
